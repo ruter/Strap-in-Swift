@@ -46,12 +46,12 @@
                                 <exclude reference="FHY-rc-OJb"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="3eX-Cg-Iyf"/>
+                                <exclude reference="yOX-io-bVz"/>
                                 <exclude reference="TKc-uN-j7j"/>
                                 <exclude reference="fQH-pe-pml"/>
                                 <exclude reference="TmB-HI-qVE"/>
                                 <exclude reference="dDA-qd-kUl"/>
-                                <exclude reference="3eX-Cg-Iyf"/>
-                                <exclude reference="yOX-io-bVz"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -61,12 +61,12 @@
                                 <include reference="FHY-rc-OJb"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="3eX-Cg-Iyf"/>
+                                <include reference="yOX-io-bVz"/>
                                 <include reference="TKc-uN-j7j"/>
                                 <include reference="fQH-pe-pml"/>
                                 <include reference="TmB-HI-qVE"/>
                                 <include reference="dDA-qd-kUl"/>
-                                <include reference="3eX-Cg-Iyf"/>
-                                <include reference="yOX-io-bVz"/>
                             </mask>
                         </variation>
                     </view>
