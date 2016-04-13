@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC5484481CBDC13E00226529 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC54843E1CBDC13E00226529 /* nssl0033.jpg */; };
+		CC5484491CBDC13E00226529 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC54843F1CBDC13E00226529 /* nssl0034.jpg */; };
+		CC54844A1CBDC13E00226529 /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5484401CBDC13E00226529 /* nssl0041.jpg */; };
+		CC54844B1CBDC13E00226529 /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5484411CBDC13E00226529 /* nssl0042.jpg */; };
+		CC54844C1CBDC13E00226529 /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5484421CBDC13E00226529 /* nssl0043.jpg */; };
+		CC54844D1CBDC13E00226529 /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5484431CBDC13E00226529 /* nssl0045.jpg */; };
+		CC54844E1CBDC13E00226529 /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5484441CBDC13E00226529 /* nssl0046.jpg */; };
+		CC54844F1CBDC13E00226529 /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5484451CBDC13E00226529 /* nssl0049.jpg */; };
+		CC5484501CBDC13E00226529 /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5484461CBDC13E00226529 /* nssl0051.jpg */; };
+		CC5484511CBDC13E00226529 /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5484471CBDC13E00226529 /* nssl0091.jpg */; };
 		CC6323E91CBD442800B4340D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6323E81CBD442800B4340D /* AppDelegate.swift */; };
 		CC6323EB1CBD442800B4340D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6323EA1CBD442800B4340D /* MasterViewController.swift */; };
 		CC6323ED1CBD442800B4340D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6323EC1CBD442800B4340D /* DetailViewController.swift */; };
@@ -16,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC54843E1CBDC13E00226529 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		CC54843F1CBDC13E00226529 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		CC5484401CBDC13E00226529 /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		CC5484411CBDC13E00226529 /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		CC5484421CBDC13E00226529 /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
+		CC5484431CBDC13E00226529 /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		CC5484441CBDC13E00226529 /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
+		CC5484451CBDC13E00226529 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
+		CC5484461CBDC13E00226529 /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		CC5484471CBDC13E00226529 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
 		CC6323E51CBD442800B4340D /* StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6323E81CBD442800B4340D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC6323EA1CBD442800B4340D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC54843D1CBDC13E00226529 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC54843E1CBDC13E00226529 /* nssl0033.jpg */,
+				CC54843F1CBDC13E00226529 /* nssl0034.jpg */,
+				CC5484401CBDC13E00226529 /* nssl0041.jpg */,
+				CC5484411CBDC13E00226529 /* nssl0042.jpg */,
+				CC5484421CBDC13E00226529 /* nssl0043.jpg */,
+				CC5484431CBDC13E00226529 /* nssl0045.jpg */,
+				CC5484441CBDC13E00226529 /* nssl0046.jpg */,
+				CC5484451CBDC13E00226529 /* nssl0049.jpg */,
+				CC5484461CBDC13E00226529 /* nssl0051.jpg */,
+				CC5484471CBDC13E00226529 /* nssl0091.jpg */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		CC6323DC1CBD442800B4340D = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +100,7 @@
 				CC6323F11CBD442800B4340D /* Assets.xcassets */,
 				CC6323F31CBD442800B4340D /* LaunchScreen.storyboard */,
 				CC6323F61CBD442800B4340D /* Info.plist */,
+				CC54843D1CBDC13E00226529 /* Content */,
 			);
 			path = StormViewer;
 			sourceTree = "<group>";
@@ -125,8 +163,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5484491CBDC13E00226529 /* nssl0034.jpg in Resources */,
+				CC5484501CBDC13E00226529 /* nssl0051.jpg in Resources */,
 				CC6323F51CBD442800B4340D /* LaunchScreen.storyboard in Resources */,
+				CC54844C1CBDC13E00226529 /* nssl0043.jpg in Resources */,
+				CC5484481CBDC13E00226529 /* nssl0033.jpg in Resources */,
+				CC54844D1CBDC13E00226529 /* nssl0045.jpg in Resources */,
+				CC54844E1CBDC13E00226529 /* nssl0046.jpg in Resources */,
+				CC54844F1CBDC13E00226529 /* nssl0049.jpg in Resources */,
+				CC54844B1CBDC13E00226529 /* nssl0042.jpg in Resources */,
 				CC6323F21CBD442800B4340D /* Assets.xcassets in Resources */,
+				CC5484511CBDC13E00226529 /* nssl0091.jpg in Resources */,
+				CC54844A1CBDC13E00226529 /* nssl0041.jpg in Resources */,
 				CC6323F01CBD442800B4340D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,10 +303,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StormViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ruter.StormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -266,10 +317,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StormViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ruter.StormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -292,6 +346,7 @@
 				CC6323FB1CBD442800B4340D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
