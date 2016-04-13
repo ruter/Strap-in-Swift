@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GameplayKit
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var button3: UIButton!
   
   var countries = [String]()
+  var correctAnswer = 0
   var score = 0
   
   override func viewDidLoad() {
@@ -35,9 +37,17 @@ class ViewController: UIViewController {
   }
   
   func askQuestion() {
+    // Shuffling objects in array
+    countries = GKRandomSource.sharedRandom().arrayByShufflingObjectsInArray(countries) as! [String]
+    
     button1.setImage(UIImage(named: countries[0]), forState: .Normal)
     button2.setImage(UIImage(named: countries[1]), forState: .Normal)
     button3.setImage(UIImage(named: countries[2]), forState: .Normal)
+    // Generate a random number between 0 and (upper bound - 1)
+    correctAnswer = GKRandomSource.sharedRandom().nextIntWithUpperBound(3)
+    
+    // Set title for navigation bar
+    title = countries[correctAnswer].uppercaseString
   }
 
   override func didReceiveMemoryWarning() {
