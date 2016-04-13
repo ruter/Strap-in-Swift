@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="96u-hn-MwG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GuessTheFlag" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iu3-ee-cri">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="us"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Srb-yT-AZj">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="us"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHY-rc-OJb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="us"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FHY-rc-OJb" firstAttribute="centerX" secondItem="Srb-yT-AZj" secondAttribute="centerX" id="3eX-Cg-Iyf"/>
+                            <constraint firstItem="Iu3-ee-cri" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TKc-uN-j7j"/>
+                            <constraint firstItem="Srb-yT-AZj" firstAttribute="top" secondItem="Iu3-ee-cri" secondAttribute="bottom" constant="30" id="TmB-HI-qVE"/>
+                            <constraint firstItem="Srb-yT-AZj" firstAttribute="centerX" secondItem="Iu3-ee-cri" secondAttribute="centerX" id="dDA-qd-kUl"/>
+                            <constraint firstItem="Iu3-ee-cri" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="fQH-pe-pml"/>
+                            <constraint firstItem="FHY-rc-OJb" firstAttribute="top" secondItem="Srb-yT-AZj" secondAttribute="bottom" constant="30" id="yOX-io-bVz"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Iu3-ee-cri"/>
+                                <exclude reference="Srb-yT-AZj"/>
+                                <exclude reference="FHY-rc-OJb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="TKc-uN-j7j"/>
+                                <exclude reference="fQH-pe-pml"/>
+                                <exclude reference="TmB-HI-qVE"/>
+                                <exclude reference="dDA-qd-kUl"/>
+                                <exclude reference="3eX-Cg-Iyf"/>
+                                <exclude reference="yOX-io-bVz"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Iu3-ee-cri"/>
+                                <include reference="Srb-yT-AZj"/>
+                                <include reference="FHY-rc-OJb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="TKc-uN-j7j"/>
+                                <include reference="fQH-pe-pml"/>
+                                <include reference="TmB-HI-qVE"/>
+                                <include reference="dDA-qd-kUl"/>
+                                <include reference="3eX-Cg-Iyf"/>
+                                <include reference="yOX-io-bVz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="vSb-yG-OJh"/>
+                    <connections>
+                        <outlet property="button1" destination="Iu3-ee-cri" id="lna-Dc-c74"/>
+                        <outlet property="button2" destination="Srb-yT-AZj" id="ZBx-Hh-sbM"/>
+                        <outlet property="button3" destination="FHY-rc-OJb" id="sJO-83-i9p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1339.5" y="321"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gnd-Do-osP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="96u-hn-MwG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xU1-Fm-hi2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="X46-2E-PbP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nw9-0E-FdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="607.5" y="321"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="us" width="200" height="100"/>
+    </resources>
+</document>
