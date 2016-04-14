@@ -12,6 +12,7 @@ import WebKit
 class ViewController: UIViewController, WKNavigationDelegate {
 
   var webView: WKWebView!
+  var progressView: UIProgressView!
   
   override func loadView() {
     webView = WKWebView()
@@ -22,8 +23,20 @@ class ViewController: UIViewController, WKNavigationDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    webView.addObserver(self, forKeyPath: "estimatedProgress", options: .New, context: nil)
     
     navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Open", style: .Plain, target: self, action: #selector(openTapped))
+    
+    progressView = UIProgressView(progressViewStyle: .Default)
+    progressView.sizeToFit()
+    let progressButton = UIBarButtonItem(customView: progressView)
+    
+    
+    let spacer = UIBarButtonItem(barButtonSystemItem: .FlexibleSpace, target: nil, action: nil)
+    let refresh = UIBarButtonItem(barButtonSystemItem: .Refresh, target: webView, action: #selector(UIWebView.reload))
+    
+    toolbarItems = [progressButton, spacer, refresh]
+    navigationController?.toolbarHidden = false
     
     let url = NSURL(string: "https://ruter.github.io")!
     webView.loadRequest(NSURLRequest(URL: url))
@@ -47,6 +60,13 @@ class ViewController: UIViewController, WKNavigationDelegate {
   // MARK: - MKNavigationDelegate
   func webView(webView: WKWebView, didFinishNavigation navigation: WKNavigation!) {
     title = webView.title
+  }
+  
+  // MARK: - KVO
+  override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+    if keyPath == "estimatedProgress" {
+      progressView.progress = Float(webView.estimatedProgress)
+    }
   }
   
   override func didReceiveMemoryWarning() {
