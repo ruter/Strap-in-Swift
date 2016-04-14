@@ -13,6 +13,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
 
   var webView: WKWebView!
   var progressView: UIProgressView!
+  var websites = ["apple.com", "ruter.github.io"]
   
   override func loadView() {
     webView = WKWebView()
@@ -38,15 +39,16 @@ class ViewController: UIViewController, WKNavigationDelegate {
     toolbarItems = [progressButton, spacer, refresh]
     navigationController?.toolbarHidden = false
     
-    let url = NSURL(string: "https://ruter.github.io")!
+    let url = NSURL(string: "https://" + websites[0])!
     webView.loadRequest(NSURLRequest(URL: url))
     webView.allowsBackForwardNavigationGestures = true
   }
   
   func openTapped() {
     let ac = UIAlertController(title: "Open page...", message: nil, preferredStyle: .ActionSheet)
-    ac.addAction(UIAlertAction(title: "apple.com", style: .Default, handler: openPage))
-    ac.addAction(UIAlertAction(title: "ruter.github.io", style: .Default, handler: openPage))
+    for website in websites {
+      ac.addAction(UIAlertAction(title: website, style: .Default, handler: openPage))
+    }
     ac.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
     
     presentViewController(ac, animated: true, completion: nil)
@@ -60,6 +62,20 @@ class ViewController: UIViewController, WKNavigationDelegate {
   // MARK: - MKNavigationDelegate
   func webView(webView: WKWebView, didFinishNavigation navigation: WKNavigation!) {
     title = webView.title
+  }
+  
+  func webView(webView: WKWebView, decidePolicyForNavigationAction navigationAction: WKNavigationAction, decisionHandler: (WKNavigationActionPolicy) -> Void) {
+    let url = navigationAction.request.URL
+    
+    if let host = url!.host {
+      for website in websites {
+        if host.rangeOfString(website) != nil {
+          decisionHandler(.Allow)
+          return
+        }
+      }
+    }
+    decisionHandler(.Cancel)
   }
   
   // MARK: - KVO
