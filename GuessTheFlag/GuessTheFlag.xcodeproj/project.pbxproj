@@ -286,6 +286,7 @@
 				CC5560B61CBE10F800E838F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
