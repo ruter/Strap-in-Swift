@@ -13,3 +13,5 @@ The examples I learn to program with Swift.
 - Project5 - WordScramble: In this project, learned how to insert rows into `UITableView`, how to add text fields to `UIAlertController`, some core stuff about strings, closures, method return values, booleans, `NSRange`.
 
 - Project6 - AutoLayout: Learned how to use Auto Layout in code, use Visual Format Language(VFL) to add constraints.
+
+- Project7 - WhitehousePetitions: This project using JSON to parse Whitehouse petitions, learned `NSData`, `SwiftyJSON`, `UITabBarController`, create new view controller by reference to storyboard.
