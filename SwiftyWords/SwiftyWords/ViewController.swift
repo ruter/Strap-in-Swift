@@ -20,7 +20,11 @@ class ViewController: UIViewController {
   var activatedButtons = [UIButton]()
   var solutions = [String]()
   
-  var score = 0
+  var score: Int = 0 {
+    didSet {
+      scoreLabel.text = "Score: \(score)"
+    }
+  }
   var level = 1
   
   override func viewDidLoad() {
@@ -112,6 +116,7 @@ class ViewController: UIViewController {
       }
     }
   }
+  
   func levelUp(action: UIAlertAction!) {
     level += 1
     solutions.removeAll(keepCapacity: true)
