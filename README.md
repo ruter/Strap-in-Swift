@@ -6,7 +6,7 @@ The examples I learn to program with Swift.
 
 - Project2 - GuessTheFlag: There are something new about @2x and @3x images, asset catalogs, operators(`+=` and `-=`), `UIButton`, enums, `CALayer`, `UIColor`, random numbers, actions, string interpolation, `UIAlertController`.
 
-- Project3 - SocialMedia: Learn something new here, include `UIBarButtonItem`, `UIActivityViewController`, the Social framework, and `NSURL`.
+- Project3 - SocialMedia: Learned something new here, include `UIBarButtonItem`, `UIActivityViewController`, the Social framework, and `NSURL`.
 
 - Project4 - EasyBrowser: In this project, learned about `loadView()`, `WKWebView`, delegation, `NSURLRequest`, `UIToolBar`, `UIProgressView`, KVO.
 
@@ -15,3 +15,5 @@ The examples I learn to program with Swift.
 - Project6 - AutoLayout: Learned how to use Auto Layout in code, use Visual Format Language(VFL) to add constraints.
 
 - Project7 - WhitehousePetitions: This project using JSON to parse Whitehouse petitions, learned `NSData`, `SwiftyJSON`, `UITabBarController`, create new view controller by reference to storyboard.
+
+- Project8 - SwiftyWords: This project learning about `addTarget()`, `enumerate()`, `countElements()`, `find()`, `join()`, `stringByReplacingOccurrencesOfString()`, property observers, range operators and the difference between Swift and `NSString`.
