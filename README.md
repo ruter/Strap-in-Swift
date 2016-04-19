@@ -17,3 +17,5 @@ The examples I learn to program with Swift.
 - Project7 - WhitehousePetitions: This project using JSON to parse Whitehouse petitions, learned `NSData`, `SwiftyJSON`, `UITabBarController`, create new view controller by reference to storyboard.
 
 - Project8 - SwiftyWords: This project learning about `addTarget()`, `enumerate()`, `countElements()`, `find()`, `join()`, `stringByReplacingOccurrencesOfString()`, property observers, range operators and the difference between Swift and `NSString`.
+
+- Project9 - GCD: Learn how to run complex tasks in the background with GCD, how to use `dispatch_async()`, `dispatch_get_global_queue()`, `QOS_CLASS_USER_INITIATED` and so on.
