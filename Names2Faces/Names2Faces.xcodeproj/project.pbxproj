@@ -12,6 +12,7 @@
 		CC20D05D1CC5D8830048DAC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC20D05B1CC5D8830048DAC5 /* Main.storyboard */; };
 		CC20D05F1CC5D8830048DAC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC20D05E1CC5D8830048DAC5 /* Assets.xcassets */; };
 		CC20D0621CC5D8830048DAC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC20D0601CC5D8830048DAC5 /* LaunchScreen.storyboard */; };
+		CC20D06A1CC5DDE30048DAC5 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC20D0691CC5DDE30048DAC5 /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CC20D05E1CC5D8830048DAC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC20D0611CC5D8830048DAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC20D0631CC5D8830048DAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC20D0691CC5DDE30048DAC5 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CC20D0571CC5D8830048DAC5 /* AppDelegate.swift */,
 				CC20D0591CC5D8830048DAC5 /* ViewController.swift */,
+				CC20D0691CC5DDE30048DAC5 /* PersonCell.swift */,
 				CC20D05B1CC5D8830048DAC5 /* Main.storyboard */,
 				CC20D05E1CC5D8830048DAC5 /* Assets.xcassets */,
 				CC20D0601CC5D8830048DAC5 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC20D06A1CC5DDE30048DAC5 /* PersonCell.swift in Sources */,
 				CC20D05A1CC5D8830048DAC5 /* ViewController.swift in Sources */,
 				CC20D0581CC5D8830048DAC5 /* AppDelegate.swift in Sources */,
 			);
