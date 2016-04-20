@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC83EB0C1CC70327006C8C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC83EB0B1CC70327006C8C20 /* AppDelegate.swift */; };
+		CC83EB0E1CC70327006C8C20 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB0D1CC70327006C8C20 /* GameScene.sks */; };
+		CC83EB101CC70327006C8C20 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC83EB0F1CC70327006C8C20 /* GameScene.swift */; };
+		CC83EB121CC70327006C8C20 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC83EB111CC70327006C8C20 /* GameViewController.swift */; };
+		CC83EB151CC70327006C8C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB131CC70327006C8C20 /* Main.storyboard */; };
+		CC83EB171CC70327006C8C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB161CC70327006C8C20 /* Assets.xcassets */; };
+		CC83EB1A1CC70327006C8C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB181CC70327006C8C20 /* LaunchScreen.storyboard */; };
+		CC83EB3E1CC7052E006C8C20 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB221CC7052E006C8C20 /* background.jpg */; };
+		CC83EB3F1CC7052E006C8C20 /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB231CC7052E006C8C20 /* background@2x.jpg */; };
+		CC83EB401CC7052E006C8C20 /* ballBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB241CC7052E006C8C20 /* ballBlue.png */; };
+		CC83EB411CC7052E006C8C20 /* ballBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB251CC7052E006C8C20 /* ballBlue@2x.png */; };
+		CC83EB421CC7052E006C8C20 /* ballCyan.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB261CC7052E006C8C20 /* ballCyan.png */; };
+		CC83EB431CC7052E006C8C20 /* ballCyan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB271CC7052E006C8C20 /* ballCyan@2x.png */; };
+		CC83EB441CC7052E006C8C20 /* ballGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB281CC7052E006C8C20 /* ballGreen.png */; };
+		CC83EB451CC7052E006C8C20 /* ballGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB291CC7052E006C8C20 /* ballGreen@2x.png */; };
+		CC83EB461CC7052E006C8C20 /* ballGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB2A1CC7052E006C8C20 /* ballGrey.png */; };
+		CC83EB471CC7052E006C8C20 /* ballGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB2B1CC7052E006C8C20 /* ballGrey@2x.png */; };
+		CC83EB481CC7052E006C8C20 /* ballPurple.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB2C1CC7052E006C8C20 /* ballPurple.png */; };
+		CC83EB491CC7052E006C8C20 /* ballPurple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB2D1CC7052E006C8C20 /* ballPurple@2x.png */; };
+		CC83EB4A1CC7052E006C8C20 /* ballRed.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB2E1CC7052E006C8C20 /* ballRed.png */; };
+		CC83EB4B1CC7052E006C8C20 /* ballRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB2F1CC7052E006C8C20 /* ballRed@2x.png */; };
+		CC83EB4C1CC7052E006C8C20 /* ballYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB301CC7052E006C8C20 /* ballYellow.png */; };
+		CC83EB4D1CC7052E006C8C20 /* ballYellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB311CC7052E006C8C20 /* ballYellow@2x.png */; };
+		CC83EB4E1CC7052E006C8C20 /* bouncer.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB321CC7052E006C8C20 /* bouncer.png */; };
+		CC83EB4F1CC7052E006C8C20 /* bouncer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB331CC7052E006C8C20 /* bouncer@2x.png */; };
+		CC83EB501CC7052E006C8C20 /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB341CC7052E006C8C20 /* FireParticles.sks */; };
+		CC83EB511CC7052E006C8C20 /* slotBaseBad.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB351CC7052E006C8C20 /* slotBaseBad.png */; };
+		CC83EB521CC7052E006C8C20 /* slotBaseBad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB361CC7052E006C8C20 /* slotBaseBad@2x.png */; };
+		CC83EB531CC7052E006C8C20 /* slotBaseGood.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB371CC7052E006C8C20 /* slotBaseGood.png */; };
+		CC83EB541CC7052E006C8C20 /* slotBaseGood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB381CC7052E006C8C20 /* slotBaseGood@2x.png */; };
+		CC83EB551CC7052E006C8C20 /* slotGlowBad.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB391CC7052E006C8C20 /* slotGlowBad.png */; };
+		CC83EB561CC7052E006C8C20 /* slotGlowBad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB3A1CC7052E006C8C20 /* slotGlowBad@2x.png */; };
+		CC83EB571CC7052E006C8C20 /* slotGlowGood.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB3B1CC7052E006C8C20 /* slotGlowGood.png */; };
+		CC83EB581CC7052E006C8C20 /* slotGlowGood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB3C1CC7052E006C8C20 /* slotGlowGood@2x.png */; };
+		CC83EB591CC7052E006C8C20 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83EB3D1CC7052E006C8C20 /* spark.png */; };
+		CC83EB5B1CC7053C006C8C20 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC83EB5A1CC7053C006C8C20 /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC83EB081CC70326006C8C20 /* Pachinko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pachinko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC83EB0B1CC70327006C8C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC83EB0D1CC70327006C8C20 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CC83EB0F1CC70327006C8C20 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CC83EB111CC70327006C8C20 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CC83EB141CC70327006C8C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC83EB161CC70327006C8C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC83EB191CC70327006C8C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC83EB1B1CC70327006C8C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC83EB221CC7052E006C8C20 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		CC83EB231CC7052E006C8C20 /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
+		CC83EB241CC7052E006C8C20 /* ballBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballBlue.png; sourceTree = "<group>"; };
+		CC83EB251CC7052E006C8C20 /* ballBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballBlue@2x.png"; sourceTree = "<group>"; };
+		CC83EB261CC7052E006C8C20 /* ballCyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballCyan.png; sourceTree = "<group>"; };
+		CC83EB271CC7052E006C8C20 /* ballCyan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballCyan@2x.png"; sourceTree = "<group>"; };
+		CC83EB281CC7052E006C8C20 /* ballGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballGreen.png; sourceTree = "<group>"; };
+		CC83EB291CC7052E006C8C20 /* ballGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballGreen@2x.png"; sourceTree = "<group>"; };
+		CC83EB2A1CC7052E006C8C20 /* ballGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballGrey.png; sourceTree = "<group>"; };
+		CC83EB2B1CC7052E006C8C20 /* ballGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballGrey@2x.png"; sourceTree = "<group>"; };
+		CC83EB2C1CC7052E006C8C20 /* ballPurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballPurple.png; sourceTree = "<group>"; };
+		CC83EB2D1CC7052E006C8C20 /* ballPurple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballPurple@2x.png"; sourceTree = "<group>"; };
+		CC83EB2E1CC7052E006C8C20 /* ballRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballRed.png; sourceTree = "<group>"; };
+		CC83EB2F1CC7052E006C8C20 /* ballRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballRed@2x.png"; sourceTree = "<group>"; };
+		CC83EB301CC7052E006C8C20 /* ballYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballYellow.png; sourceTree = "<group>"; };
+		CC83EB311CC7052E006C8C20 /* ballYellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballYellow@2x.png"; sourceTree = "<group>"; };
+		CC83EB321CC7052E006C8C20 /* bouncer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bouncer.png; sourceTree = "<group>"; };
+		CC83EB331CC7052E006C8C20 /* bouncer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouncer@2x.png"; sourceTree = "<group>"; };
+		CC83EB341CC7052E006C8C20 /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
+		CC83EB351CC7052E006C8C20 /* slotBaseBad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotBaseBad.png; sourceTree = "<group>"; };
+		CC83EB361CC7052E006C8C20 /* slotBaseBad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotBaseBad@2x.png"; sourceTree = "<group>"; };
+		CC83EB371CC7052E006C8C20 /* slotBaseGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotBaseGood.png; sourceTree = "<group>"; };
+		CC83EB381CC7052E006C8C20 /* slotBaseGood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotBaseGood@2x.png"; sourceTree = "<group>"; };
+		CC83EB391CC7052E006C8C20 /* slotGlowBad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotGlowBad.png; sourceTree = "<group>"; };
+		CC83EB3A1CC7052E006C8C20 /* slotGlowBad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotGlowBad@2x.png"; sourceTree = "<group>"; };
+		CC83EB3B1CC7052E006C8C20 /* slotGlowGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotGlowGood.png; sourceTree = "<group>"; };
+		CC83EB3C1CC7052E006C8C20 /* slotGlowGood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotGlowGood@2x.png"; sourceTree = "<group>"; };
+		CC83EB3D1CC7052E006C8C20 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		CC83EB5A1CC7053C006C8C20 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC83EB051CC70326006C8C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC83EAFF1CC70326006C8C20 = {
+			isa = PBXGroup;
+			children = (
+				CC83EB0A1CC70326006C8C20 /* Pachinko */,
+				CC83EB091CC70326006C8C20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC83EB091CC70326006C8C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC83EB081CC70326006C8C20 /* Pachinko.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC83EB0A1CC70326006C8C20 /* Pachinko */ = {
+			isa = PBXGroup;
+			children = (
+				CC83EB0B1CC70327006C8C20 /* AppDelegate.swift */,
+				CC83EB0D1CC70327006C8C20 /* GameScene.sks */,
+				CC83EB0F1CC70327006C8C20 /* GameScene.swift */,
+				CC83EB111CC70327006C8C20 /* GameViewController.swift */,
+				CC83EB5A1CC7053C006C8C20 /* Helper.swift */,
+				CC83EB131CC70327006C8C20 /* Main.storyboard */,
+				CC83EB161CC70327006C8C20 /* Assets.xcassets */,
+				CC83EB181CC70327006C8C20 /* LaunchScreen.storyboard */,
+				CC83EB211CC7052E006C8C20 /* Content */,
+				CC83EB1B1CC70327006C8C20 /* Info.plist */,
+			);
+			path = Pachinko;
+			sourceTree = "<group>";
+		};
+		CC83EB211CC7052E006C8C20 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC83EB221CC7052E006C8C20 /* background.jpg */,
+				CC83EB231CC7052E006C8C20 /* background@2x.jpg */,
+				CC83EB241CC7052E006C8C20 /* ballBlue.png */,
+				CC83EB251CC7052E006C8C20 /* ballBlue@2x.png */,
+				CC83EB261CC7052E006C8C20 /* ballCyan.png */,
+				CC83EB271CC7052E006C8C20 /* ballCyan@2x.png */,
+				CC83EB281CC7052E006C8C20 /* ballGreen.png */,
+				CC83EB291CC7052E006C8C20 /* ballGreen@2x.png */,
+				CC83EB2A1CC7052E006C8C20 /* ballGrey.png */,
+				CC83EB2B1CC7052E006C8C20 /* ballGrey@2x.png */,
+				CC83EB2C1CC7052E006C8C20 /* ballPurple.png */,
+				CC83EB2D1CC7052E006C8C20 /* ballPurple@2x.png */,
+				CC83EB2E1CC7052E006C8C20 /* ballRed.png */,
+				CC83EB2F1CC7052E006C8C20 /* ballRed@2x.png */,
+				CC83EB301CC7052E006C8C20 /* ballYellow.png */,
+				CC83EB311CC7052E006C8C20 /* ballYellow@2x.png */,
+				CC83EB321CC7052E006C8C20 /* bouncer.png */,
+				CC83EB331CC7052E006C8C20 /* bouncer@2x.png */,
+				CC83EB341CC7052E006C8C20 /* FireParticles.sks */,
+				CC83EB351CC7052E006C8C20 /* slotBaseBad.png */,
+				CC83EB361CC7052E006C8C20 /* slotBaseBad@2x.png */,
+				CC83EB371CC7052E006C8C20 /* slotBaseGood.png */,
+				CC83EB381CC7052E006C8C20 /* slotBaseGood@2x.png */,
+				CC83EB391CC7052E006C8C20 /* slotGlowBad.png */,
+				CC83EB3A1CC7052E006C8C20 /* slotGlowBad@2x.png */,
+				CC83EB3B1CC7052E006C8C20 /* slotGlowGood.png */,
+				CC83EB3C1CC7052E006C8C20 /* slotGlowGood@2x.png */,
+				CC83EB3D1CC7052E006C8C20 /* spark.png */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC83EB071CC70326006C8C20 /* Pachinko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC83EB1E1CC70327006C8C20 /* Build configuration list for PBXNativeTarget "Pachinko" */;
+			buildPhases = (
+				CC83EB041CC70326006C8C20 /* Sources */,
+				CC83EB051CC70326006C8C20 /* Frameworks */,
+				CC83EB061CC70326006C8C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pachinko;
+			productName = Pachinko;
+			productReference = CC83EB081CC70326006C8C20 /* Pachinko.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC83EB001CC70326006C8C20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ruter;
+				TargetAttributes = {
+					CC83EB071CC70326006C8C20 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CC83EB031CC70326006C8C20 /* Build configuration list for PBXProject "Pachinko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC83EAFF1CC70326006C8C20;
+			productRefGroup = CC83EB091CC70326006C8C20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC83EB071CC70326006C8C20 /* Pachinko */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC83EB061CC70326006C8C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83EB471CC7052E006C8C20 /* ballGrey@2x.png in Resources */,
+				CC83EB491CC7052E006C8C20 /* ballPurple@2x.png in Resources */,
+				CC83EB561CC7052E006C8C20 /* slotGlowBad@2x.png in Resources */,
+				CC83EB421CC7052E006C8C20 /* ballCyan.png in Resources */,
+				CC83EB531CC7052E006C8C20 /* slotBaseGood.png in Resources */,
+				CC83EB0E1CC70327006C8C20 /* GameScene.sks in Resources */,
+				CC83EB401CC7052E006C8C20 /* ballBlue.png in Resources */,
+				CC83EB571CC7052E006C8C20 /* slotGlowGood.png in Resources */,
+				CC83EB521CC7052E006C8C20 /* slotBaseBad@2x.png in Resources */,
+				CC83EB4D1CC7052E006C8C20 /* ballYellow@2x.png in Resources */,
+				CC83EB511CC7052E006C8C20 /* slotBaseBad.png in Resources */,
+				CC83EB3E1CC7052E006C8C20 /* background.jpg in Resources */,
+				CC83EB541CC7052E006C8C20 /* slotBaseGood@2x.png in Resources */,
+				CC83EB4F1CC7052E006C8C20 /* bouncer@2x.png in Resources */,
+				CC83EB4A1CC7052E006C8C20 /* ballRed.png in Resources */,
+				CC83EB501CC7052E006C8C20 /* FireParticles.sks in Resources */,
+				CC83EB4B1CC7052E006C8C20 /* ballRed@2x.png in Resources */,
+				CC83EB1A1CC70327006C8C20 /* LaunchScreen.storyboard in Resources */,
+				CC83EB551CC7052E006C8C20 /* slotGlowBad.png in Resources */,
+				CC83EB171CC70327006C8C20 /* Assets.xcassets in Resources */,
+				CC83EB4C1CC7052E006C8C20 /* ballYellow.png in Resources */,
+				CC83EB4E1CC7052E006C8C20 /* bouncer.png in Resources */,
+				CC83EB441CC7052E006C8C20 /* ballGreen.png in Resources */,
+				CC83EB3F1CC7052E006C8C20 /* background@2x.jpg in Resources */,
+				CC83EB151CC70327006C8C20 /* Main.storyboard in Resources */,
+				CC83EB461CC7052E006C8C20 /* ballGrey.png in Resources */,
+				CC83EB451CC7052E006C8C20 /* ballGreen@2x.png in Resources */,
+				CC83EB431CC7052E006C8C20 /* ballCyan@2x.png in Resources */,
+				CC83EB581CC7052E006C8C20 /* slotGlowGood@2x.png in Resources */,
+				CC83EB591CC7052E006C8C20 /* spark.png in Resources */,
+				CC83EB481CC7052E006C8C20 /* ballPurple.png in Resources */,
+				CC83EB411CC7052E006C8C20 /* ballBlue@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC83EB041CC70326006C8C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83EB101CC70327006C8C20 /* GameScene.swift in Sources */,
+				CC83EB121CC70327006C8C20 /* GameViewController.swift in Sources */,
+				CC83EB0C1CC70327006C8C20 /* AppDelegate.swift in Sources */,
+				CC83EB5B1CC7053C006C8C20 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC83EB131CC70327006C8C20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC83EB141CC70327006C8C20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC83EB181CC70327006C8C20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC83EB191CC70327006C8C20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC83EB1C1CC70327006C8C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CC83EB1D1CC70327006C8C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC83EB1F1CC70327006C8C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pachinko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ruter.Pachinko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC83EB201CC70327006C8C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pachinko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ruter.Pachinko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC83EB031CC70326006C8C20 /* Build configuration list for PBXProject "Pachinko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC83EB1C1CC70327006C8C20 /* Debug */,
+				CC83EB1D1CC70327006C8C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC83EB1E1CC70327006C8C20 /* Build configuration list for PBXNativeTarget "Pachinko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC83EB1F1CC70327006C8C20 /* Debug */,
+				CC83EB201CC70327006C8C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC83EB001CC70326006C8C20 /* Project object */;
+}
