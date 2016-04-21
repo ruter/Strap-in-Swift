@@ -23,3 +23,5 @@ The examples I learn to program with Swift.
 - Project10 - Names2Faces: Learn `UICollectionView`, `UIImagePickerController`, `NSUUID`, custom classes and more.
 
 - Project11 - Pachinko: Dive into SpriteKit, learned `SpriteKit`, physics, radians, `CGFloat`, `UITouch`, `SKAction`, `SKLabelNode`, `SKEmitterNode`, `SKPhysicsContactDelegate`.
+
+- Projcet12 - NewNames2Faces: Learn how to save user settings and data for later use, about `NSUserDefaults`, `NSCoding`, `NSKeyedArchiver`, and so on.
