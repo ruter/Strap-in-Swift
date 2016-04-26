@@ -29,3 +29,5 @@ The examples I learn to program with Swift.
 - Project13 - Instafilter: In this project, make a photo manipulation program using `UISlider` and Core Image filters, and learn how to write an image to the photo library. 
 
 - Project14 - Whack-a-Penguin: Learned `SKCropNode`, `SKTexture`, GCD's `dispatch_after()`, `SKAction`.
+
+- Project15 - CoreAnimation: Learned Core Animation, CGAffineTransform and switch/case.
